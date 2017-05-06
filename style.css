@@ -30,8 +30,8 @@ body{
 	font-size: 20px;
 	line-height: 25px;
 }
-#lg-form input[type="text"],
-#lg-form input[type="password"]{
+#lg-form input[type="Product_Url"],
+#lg-form input[type="Product_price"]{
 	border:1px solid rgba(51,51,51,.5);
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
