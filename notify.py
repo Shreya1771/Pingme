@@ -3,8 +3,6 @@ from bs4 import BeautifulSoup
 import sys, select
 from urlparse import urlparse
 from twilio.rest import TwilioRestClient
-from django.shortcuts import render_to_response
-from django.views.generic import TemplateView
 
 ACCOUNT_SID = 'AC970af18d1452112b2332151c16f2109a'
 AUTH_TOKEN = 'be8afa835f3dc3768c1eaef89d3fe4eb'
@@ -327,5 +325,3 @@ if __name__ == "__main__":
 	   process_input(i, items)
 	elif len(items) > 0:
 	   update_notif_p(items)
-	return render_to_response('index.html', items)
-template_name = "index.html"
